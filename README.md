@@ -1,12 +1,18 @@
 # Multi-Prototypes Learning for Contrastive Clustering
 
 
-## Installation
+## Enviroment setup
+
+Our models are trained with a single GPU. 
+The code is compatible with Pytorch. See requirements.txt for all prerequisites, and you can also install them using the following command.
 ```shell
 pip install -r requirements.txt
 ```
 
 ## Train
+
+To train the model on different datasets with a single GPU, try the following command:
+
 ```shell
 CUDA_VISIBLE_DEVICES=0 python end2end.py --config_env configs/env.yml --config_exp configs/end2end/end2end_cifar10.yml
 CUDA_VISIBLE_DEVICES=0 python end2end.py --config_env configs/env.yml --config_exp configs/end2end/end2end_cifar20.yml
@@ -17,6 +23,8 @@ CUDA_VISIBLE_DEVICES=0 python end2end.py --config_env configs/env.yml --config_e
 ```
 
 ## Test
+
+To test the model on different with a single GPU, run the following command:
 ```shell
 CUDA_VISIBLE_DEVICES=0 python test_end2end.py --config_env configs/env.yml --config_exp configs/end2end/end2end_cifar10.yml
 CUDA_VISIBLE_DEVICES=0 python test_end2end.py --config_env configs/env.yml --config_exp configs/end2end/end2end_cifar20.yml
@@ -27,6 +35,9 @@ CUDA_VISIBLE_DEVICES=0 python test_end2end.py --config_env configs/env.yml --con
 ```
 
 ## Self-labeling
+
+To fine-tune the trained models (with a single GPU), try the following command:
+
 ```shell
 CUDA_VISIBLE_DEVICES=0 python selflabel.py --config_env configs/env.yml --config_exp configs/selflabel/selflabel_cifar10.yml
 CUDA_VISIBLE_DEVICES=0 python selflabel.py --config_env configs/env.yml --config_exp configs/selflabel/selflabel_cifar20.yml
