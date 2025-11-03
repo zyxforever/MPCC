@@ -1,5 +1,14 @@
 # Multi-Prototypes Learning for Contrastive Clustering
 
+## Contents
+1. [Introduction](#introduction)
+0. [Enviroment setup](#Enviroment setup)
+0. [Train](#Train)
+0. [Test](#Test)
+0. [Self-labeling](#Self-labeling)
+## Introduction
+<p align="center" >
+    <img src="Fig1.pdf" width="400" height="500" />
 
 ## Enviroment setup
 
