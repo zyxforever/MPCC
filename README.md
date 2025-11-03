@@ -2,7 +2,7 @@
 
 ## Contents
 1. [Introduction](#introduction)
-0. [Enviroment setup](#Enviroment setup)
+0. [Installation](#Installation)
 0. [Train](#Train)
 0. [Test](#Test)
 0. [Self-labeling](#Self-labeling)
