@@ -10,7 +10,7 @@
 <p align="center" >
     <img src="Fig1.pdf" width="400" height="500" />
 
-## Enviroment setup
+## Installation
 
 Our models are trained with a single GPU. 
 The code is compatible with Pytorch. See requirements.txt for all prerequisites, and you can also install them using the following command.
