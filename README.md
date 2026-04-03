@@ -53,3 +53,15 @@ CUDA_VISIBLE_DEVICES=0 python selflabel.py --config_env configs/env.yml --config
 CUDA_VISIBLE_DEVICES=0 python selflabel.py --config_env configs/env.yml --config_exp configs/selflabel/selflabel_stl10.yml
 ```
 
+@article{ZHAO202699,
+title = {Multi-Prototypes representation learning for contrastive clustering},
+journal = {Pattern Recognition Letters},
+volume = {203},
+pages = {99-104},
+year = {2026},
+issn = {0167-8655},
+doi = {https://doi.org/10.1016/j.patrec.2026.03.001},
+url = {https://www.sciencedirect.com/science/article/pii/S0167865526000826},
+author = {Yunxiao Zhao and Yecheng Guo and Qin Yue and Liang Bai},
+keywords = {Contrastive clustering, Contrastive learning, Self-supervised learning, Cluster analysis}
+}
